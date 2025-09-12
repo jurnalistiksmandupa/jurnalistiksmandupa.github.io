@@ -1,0 +1,75 @@
+body {
+  background: #f3f4f6;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #6c63ff, #818cf8);
+}
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #a78bfa, #60a5fa);
+  color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Input & tombol cari */
+.input-group input {
+  border-radius: 9999px 0 0 9999px;
+  border: none;
+}
+.input-group button {
+  border-radius: 0 9999px 9999px 0;
+  background: #34d399;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Card berita */
+.news-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform .2s ease, box-shadow .2s ease;
+  background: #fff;
+}
+.news-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.06);
+}
+.thumb {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Tombol "Baca" */
+.btn-primary {
+  background: linear-gradient(90deg, #818cf8, #6c63ff);
+  border: none;
+  border-radius: 9999px;
+  padding: 6px 16px;
+}
+.btn-primary:hover { opacity: .9; }
+
+/* Footer & modal */
+footer {
+  font-size: .9rem;
+  opacity: .8;
+}
+.modal-content {
+  border-radius: 16px;
+}
+#modalBodyText {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
