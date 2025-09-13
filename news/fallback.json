@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "slug": "Mantap",
+    "title": "Keren",
+    "excerpt": "Anjay",
+    "thumb": "/news/Mantap/picture.png",
+    "txt": "/news/Mantap/text.txt",
+    "date": "2025-09-13",
+    "category": "Pengumuman"
+  }
+]
