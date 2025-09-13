@@ -7,5 +7,14 @@
     "txt": "/news/test/text.txt",
     "date": "2025-09-13",
     "category": "Pengumuman"
+  },
+  {
+    "slug": "test1",
+    "title": "scmamcskcm",
+    "excerpt": "ascakmsckaskca",
+    "thumb": "/news/test1/picture.png",
+    "txt": "/news/test1/text.txt",
+    "date": "2025-09-13",
+    "category": "Pengumuman"
   }
 ]
