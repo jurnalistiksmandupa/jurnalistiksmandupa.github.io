@@ -1,20 +1,2 @@
 [
-  {
-    "slug": "1",
-    "title": "Judul Berita",
-    "excerpt": "Ringkasan berita",
-    "thumb": "/news/1/picture.png",
-    "txt": "/news/1/text.txt",
-    "date": "2025-09-12",
-    "category": "Pengumuman"
-  },
-  {
-    "slug": "2",
-    "title": "VIRAL!! ANAK DPR MASUK KE X.1",
-    "excerpt": "BACA SELENGKAPNYA!!",
-    "thumb": "/news/2/picture.jpeg",
-    "txt": "/news/2/text.txt",
-    "date": "2025-09-12",
-    "category": "Viral"
-  }
 ]
