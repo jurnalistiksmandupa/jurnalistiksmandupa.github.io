@@ -7,14 +7,5 @@
     "txt": "/news/test/text.txt",
     "date": "2025-09-13",
     "category": "Pengumuman"
-  },
-  {
-    "slug": "msalm",
-    "title": "mantap",
-    "excerpt": "maml",
-    "thumb": "/news/msalm/picture.png",
-    "txt": "/news/msalm/text.txt",
-    "date": "2025-09-13",
-    "category": "Viral"
   }
 ]
