@@ -73,11 +73,22 @@ footer {
   white-space: pre-wrap;
   line-height: 1.6;
 }
+
 /* Gambar dalam modal */
 .modal-body img {
-  display: block;          /* bikin jadi elemen block */
-  max-width: 90%;         /* biar nggak melebihi lebar modal */
-  height: auto;            /* rasio gambar tetap */
-  margin: 0 auto 1rem;     /* center horizontal + beri jarak bawah */
-  border-radius: 12px;     /* opsional: sudut sedikit membulat */
+  display: block;
+  max-width: 90%;     /* jaga lebar maksimal */
+  max-height: 65vh;   /* batasi tinggi maksimal agar tidak memenuhi layar */
+  width: auto;
+  height: auto;
+  margin: 0 auto 1rem;
+  border-radius: 12px;
+}
+
+/* Responsif: di layar kecil gambar lebih kecil */
+@media (max-width: 768px) {
+  .modal-body img {
+    max-width: 100%;
+    max-height: 40vh;
+  }
 }
