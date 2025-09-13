@@ -1,2 +1,11 @@
 [
+  {
+    "slug": "test",
+    "title": "ahii",
+    "excerpt": "ams",
+    "thumb": "/news/test/picture.png",
+    "txt": "/news/test/text.txt",
+    "date": "2025-09-13",
+    "category": "Pengumuman"
+  }
 ]
