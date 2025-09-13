@@ -16,5 +16,14 @@
     "txt": "/news/2/text.txt",
     "date": "2025-09-12",
     "category": "Viral"
+  },
+  {
+    "slug": "rayan-pembokep",
+    "title": "rayan pembokep",
+    "excerpt": "mantap",
+    "thumb": "/news/rayan-pembokep/picture.png",
+    "txt": "/news/rayan-pembokep/text.txt",
+    "date": "2025-09-13",
+    "category": "Viral"
   }
 ]
