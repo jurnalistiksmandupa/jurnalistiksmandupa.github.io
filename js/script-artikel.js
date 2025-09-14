@@ -43,7 +43,7 @@ async function loadArticle() {
     const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error();
     const text = await res.text();
-    document.getElementById('bodyText').textContent = text;
+    document.getElementById('bodyText').innerHTML = text;
   } catch (err) {
     document.getElementById('bodyText').innerHTML =
       `<div class="alert alert-info">Isi berita tidak ditemukan pada ${url}.</div><p>${escapeHtml(article.excerpt || '')}</p>`;

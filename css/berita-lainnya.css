@@ -1,0 +1,75 @@
+/* ===== Related News Final ===== */
+#relatedNews {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+  gap: 1rem; /* jarak antar kartu */
+}
+
+/* Setiap kolom related news */
+#relatedNews .col-md-4 {
+  flex: 0 0 33.3333%;   /* desktop 3 kolom */
+  max-width: 33.3333%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 1rem;   /* jarak vertikal */
+}
+
+/* Mobile / tablet: 2 kolom */
+@media (max-width: 768px) {
+  #relatedNews .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* ===== Kartu berita ===== */
+#relatedNews .news-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform .2s, box-shadow .2s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Thumbnail lebih kecil */
+#relatedNews .news-card .thumb {
+  height: 120px;
+  object-fit: cover;
+}
+
+/* Title & excerpt ringkas */
+#relatedNews .news-card .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#relatedNews .news-card .card-text {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* Tombol lebih kecil */
+#relatedNews .news-card .btn {
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  border-radius: 9999px;
+}
+
+/* Responsif lebih ringkas di mobile */
+@media (max-width: 768px) {
+  #relatedNews .news-card .thumb {
+    height: 100px;
+  }
+  #relatedNews .news-card .card-title {
+    font-size: 0.95rem;
+  }
+  #relatedNews .news-card .card-text {
+    font-size: 0.8rem;
+  }
+  #relatedNews .news-card .btn {
+    padding: 3px 10px;
+    font-size: 0.75rem;
+  }
+}
