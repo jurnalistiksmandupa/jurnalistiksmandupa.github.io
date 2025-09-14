@@ -1,0 +1,44 @@
+/* Hero artikel netral */
+.hero-article {
+  background: #f5f5f5;          /* abu-abu sangat terang */
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;            /* center konten horizontal */
+}
+
+/* Judul & meta tetap left */
+.hero-article h1,
+.hero-article .text-muted {
+  text-align: left;
+}
+
+/* Gambar di tengah, maksimal 60% lebar hero di desktop */
+.hero-article img {
+  display: block;
+  margin: 1rem auto 0;          /* center horizontal, jarak top 1rem */
+  max-width: 60%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Konten berita */
+#bodyText {
+  white-space: pre-wrap;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #374151;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .hero-article {
+    padding: 24px;
+  }
+  .hero-article img {
+    max-width: 100%;              /* gambar full-width di mobile */
+  }
+  #bodyText {
+    font-size: 0.95rem;
+  }
+}
