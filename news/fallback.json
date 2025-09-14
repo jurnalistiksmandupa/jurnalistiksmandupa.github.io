@@ -16,5 +16,14 @@
     "txt": "/news/PROFIL-SINGKAT-PPID-SMAN-PLUS-2-BANYUASIN-III/text.txt",
     "date": "2025-09-08",
     "category": "Berita Hangat"
+  },
+  {
+    "slug": "test",
+    "title": "mmm",
+    "excerpt": "mmm",
+    "thumb": "/news/test/picture.png",
+    "txt": "/news/test/text.txt",
+    "date": "2025-09-14",
+    "category": "mmm"
   }
 ]
